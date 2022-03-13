@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Testes</title>
+    </head>
+    <body>
+        <div>
+            <h1>Testes Java</h1>
+            <span>ID: </span> <span th:text="${item_id} ?: 'Item não encontrado'"></span>
+            <br>
+            <span>Nome: </span> <span th:text="${item_name} ?: 'Item não encontrado'" ></span>
+            <br>
+            <span>Level: </span> <span th:text="${item_level} ?: 'Item não encontrado'"></span>
+        </div>
+    </body>
+</html>
